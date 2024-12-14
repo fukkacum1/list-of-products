@@ -1,0 +1,42 @@
+
+.card__img {
+    width: 250px;
+    border-radius: 20px;
+}
+
+.card__title {
+    margin: 0;
+    font: 400 20px 'gilroy';
+    color: #373737;
+}
+.card__price,
+.card__price-nod {
+    color: #434343;
+    font-weight: 400;
+    margin: 0;
+    display: inline-block;
+    margin: 2px 0;
+}
+
+.card__new-price {
+    color: #46c870;
+    font-weight: 600;
+}
+.card__old-price {
+    padding: 0;
+    margin: 0 0 0 5px;
+    color: #939393;
+    text-decoration: line-through;
+}
+.card__button {
+    font: 400 20px 'gilroy';
+    padding: 6px 10px 4px;
+    width: 250px;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+}
+.card__button:hover {
+    background-color: #bbffc5;
+    box-shadow: 1px 1px 7px 2px #bbffc5;
+    transition: 0.5s ease-in-out;
+}

@@ -1,0 +1,16 @@
+.card-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 1450px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.card-list__item {
+    background-color: #D4DEE9;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
